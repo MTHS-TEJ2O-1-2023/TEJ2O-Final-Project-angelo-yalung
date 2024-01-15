@@ -9,23 +9,27 @@
 // variables
 // the array
 const myArray = [
-'Our world is doomed.',
-'Repent.',
-'There is at least one person who does not like you.',
-'Have no faith, you are going nowhere in life.',
-'It is not worth the bother of offing yourself, since you always off yourself too late.',
-'The end is near.',
-'Will this ever end?',
-'Where is the light at the end of the tunnel?',
-'The game was rigged from the start.',
-'Theres nothing we can do.',
-'We are all going to die.',
-'If you live long enough, youll see that every victory turns into a defeat.',
-'If you expect the worst, youll never be disappointed.',
-'Someone who smiles too much with you can sometime frown too much with you at your back.',
-'A pessimist is a man who looks both ways when he crosses the street.',
-'There is no hope.',
-''];
+  'Our world is doomed.',
+  'Repent.',
+  'There is at least one person who does not like you.',
+  'Have no faith, you are going nowhere in life.',
+  'The end is near.',
+  'Will this ever end?',
+  'Where is the light at the end of the tunnel?',
+  'The game was rigged from the start.',
+  'Theres nothing we can do.',
+  'We are all going to die.',
+  'You will eventually lose.',
+  'If you expect the worst, youll never be disappointed.',
+  'The guy you love hanging out with probably talks trash about you.',
+  'You will never recover from this.',
+  'There is no hope.',
+  'Your grades are going to crash.',
+  'You suck at this.',
+  'You will always lose.',
+  'You have tried so many times, why try again?',
+  'They wont make it.',
+  'You dissapoint your parents.'];
 let randomElement = myArray[randint(0, 15)]
 
 // setup
@@ -33,6 +37,6 @@ basic.showIcon(IconNames.Sad)
 
 // code itself
 input.onButtonPressed(Button.A, function () {
-    randomElement = myArray[randint(0, 15)]
-    basic.showString(randomElement, 90)
+  randomElement = myArray[randint(0, 15)]
+  basic.showString(randomElement, 90)
 })
