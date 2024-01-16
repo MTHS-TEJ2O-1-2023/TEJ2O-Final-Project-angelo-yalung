@@ -29,14 +29,13 @@ const myArray = [
   'You have tried so many times, why try again?',
   'They wont make it.',
   'You will be forgotten in history.']
-let randomElement = myArray[randint(0, 19)]
 
 // setup
 basic.showIcon(IconNames.Sad)
 
 // code itself
 input.onButtonPressed(Button.A, function () {
-  randomElement = myArray[randint(0, 19)]
+  let randomElement = myArray[randint(0, 19)]
   basic.clearScreen()
   basic.showString(randomElement, 90)
   basic.pause(1000)
