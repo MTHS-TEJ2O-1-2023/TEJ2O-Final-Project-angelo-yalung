@@ -37,6 +37,7 @@ basic.showIcon(IconNames.Sad)
 // code itself
 input.onButtonPressed(Button.A, function () {
   randomElement = myArray[randint(0, 19)]
+  basic.clearScreen()
   basic.showString(randomElement, 90)
   basic.pause(1000)
   basic.showIcon(IconNames.Sad)
