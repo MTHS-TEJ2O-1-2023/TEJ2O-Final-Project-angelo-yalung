@@ -18,7 +18,7 @@ const myArray = [
   'The game was rigged from the start.',
   'Theres nothing we can do.',
   'We are all going to die.',
-  'You will eventually lose.',
+  'You will eventually lose it all.',
   'If you expect the worst, youll never be disappointed.',
   'The guy you love hanging out with probably talks trash about you.',
   'You will never recover from this.',
@@ -39,3 +39,5 @@ input.onButtonPressed(Button.A, function () {
   randomElement = myArray[randint(0, 19)]
   basic.showString(randomElement, 90)
 })
+
+basic.showIcon(IconNames.Sad)
