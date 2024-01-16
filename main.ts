@@ -29,7 +29,7 @@ const myArray = [
   'You will always lose.',
   'You have tried so many times, why try again?',
   'They wont make it.',
-  'You dissapoint your parents.'];
+  'You will be forgotten in history.']
 let randomElement = myArray[randint(0, 15)]
 
 // setup
