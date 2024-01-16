@@ -15,7 +15,6 @@ const myArray = [
   'Have no faith, you are going nowhere in life.',
   'The end is near.',
   'Will this ever end?',
-  'Where is the light at the end of the tunnel?',
   'The game was rigged from the start.',
   'Theres nothing we can do.',
   'We are all going to die.',
@@ -30,13 +29,13 @@ const myArray = [
   'You have tried so many times, why try again?',
   'They wont make it.',
   'You will be forgotten in history.']
-let randomElement = myArray[randint(0, 15)]
+let randomElement = myArray[randint(0, 19)]
 
 // setup
 basic.showIcon(IconNames.Sad)
 
 // code itself
 input.onButtonPressed(Button.A, function () {
-  randomElement = myArray[randint(0, 15)]
+  randomElement = myArray[randint(0, 19)]
   basic.showString(randomElement, 90)
 })
